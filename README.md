@@ -503,32 +503,11 @@ Pulmoseg/
         └── models/
             └── unet.py              # Arquiteturas (U-Net, Attention, U-Net++)
 ```
-
----
-
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Por favor:
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
 ---
 
 ## 📄 Licença
 
 Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
----
-
-## 👨‍💻 Autores
-
-**Pericles Feitoza** - *Desenvolvimento e Pesquisa* - [GitHub](https://github.com/seu-usuario)
-
-Desenvolvido como prova de conceito para segmentação de nódulos pulmonares.
 
 ---
 
@@ -568,37 +547,3 @@ Desenvolvido como prova de conceito para segmentação de nódulos pulmonares.
 - [ ] **Interface web**: Criar interface amigável para uso clínico
 - [ ] **Validação externa**: Testar em outros datasets (LUNA16, NLST)
 
-### Oportunidades de Pesquisa
-
-- Comparação com métodos híbridos (clássico + DL)
-- Estudo de generalização cross-dataset
-- Análise de viés e fairness em diferentes populações
-- Integração com sistemas PACS hospitalares
-
----
-
-## 🙏 Agradecimentos
-
-- **LIDC-IDRI Consortium** pelo dataset público
-- **PyTorch Team** pelo framework excepcional
-- **segmentation-models-pytorch** pela biblioteca de modelos
-- **Comunidade open-source** de computer vision médica
-
----
-
-## 📧 Contato
-
-Para questões, sugestões ou colaborações:
-
-- **Email**: seu-email@example.com
-- **GitHub Issues**: [github.com/seu-usuario/Pulmoseg/issues](https://github.com/seu-usuario/Pulmoseg/issues)
-
----
-
-<div align="center">
-
-**Desenvolvido com ❤️ para avançar a segmentação automática de nódulos pulmonares**
-
-⭐ Se este projeto foi útil, considere dar uma estrela no GitHub!
-
-</div>

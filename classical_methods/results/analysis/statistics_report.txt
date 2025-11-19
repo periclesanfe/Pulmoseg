@@ -1,0 +1,73 @@
+======================================================================
+RELATÓRIO ESTATÍSTICO - ANÁLISE DE CONFIGURAÇÕES
+======================================================================
+
+### ESTATÍSTICAS GERAIS
+Total de configurações testadas: 31
+Total de slices processadas: 3565
+
+### DICE SCORE
+  Média geral: 0.0148
+  Mediana geral: 0.0080
+  Melhor config: 0.0233 (morph_gradient_k5)
+  Pior config: 0.0107 (combo_gaussian_adaptive)
+  Melhoria vs baseline: 78.26%
+
+### IoU
+  Média geral: 0.0075
+  Mediana geral: 0.0040
+  Melhor config: 0.0120 (morph_gradient_k5)
+
+### TOP 10 CONFIGURAÇÕES
+
+1. morph_gradient_k5
+   Dice: 0.0233 ± 0.0294
+   IoU:  0.0120 ± 0.0155
+   Slices: 115
+
+2. morph_gradient_k3
+   Dice: 0.0228 ± 0.0334
+   IoU:  0.0118 ± 0.0176
+   Slices: 115
+
+3. morph_gradient_k7
+   Dice: 0.0220 ± 0.0259
+   IoU:  0.0113 ± 0.0136
+   Slices: 115
+
+4. threshold_adaptive
+   Dice: 0.0191 ± 0.0171
+   IoU:  0.0097 ± 0.0088
+   Slices: 115
+
+5. clahe_clip4.0_tile8x8
+   Dice: 0.0173 ± 0.0178
+   IoU:  0.0088 ± 0.0092
+   Slices: 115
+
+6. clahe_clip4.0_tile4x4
+   Dice: 0.0164 ± 0.0182
+   IoU:  0.0084 ± 0.0094
+   Slices: 115
+
+7. clahe_clip1.0_tile16x16
+   Dice: 0.0161 ± 0.0156
+   IoU:  0.0082 ± 0.0080
+   Slices: 115
+
+8. clahe_clip2.0_tile16x16
+   Dice: 0.0161 ± 0.0156
+   IoU:  0.0082 ± 0.0080
+   Slices: 115
+
+9. clahe_clip4.0_tile16x16
+   Dice: 0.0161 ± 0.0156
+   IoU:  0.0082 ± 0.0080
+   Slices: 115
+
+10. clahe_clip3.0_tile16x16
+   Dice: 0.0161 ± 0.0156
+   IoU:  0.0082 ± 0.0080
+   Slices: 115
+
+======================================================================

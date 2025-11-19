@@ -1,0 +1,33 @@
+# Deep Learning Requirements for PulmoSeg
+# Optimized for Apple Silicon (M1/M2/M3) with MPS support
+
+# Core Deep Learning
+torch>=2.0.0              # PyTorch with MPS support for Apple Silicon
+torchvision>=0.15.0       # Vision utilities and pre-trained models
+segmentation-models-pytorch>=0.3.3  # Pre-built segmentation architectures
+
+# Data Processing and Augmentation
+albumentations>=1.3.0     # Advanced image augmentation library
+opencv-python>=4.8.0      # Computer vision (already in main requirements)
+scikit-image>=0.21.0      # Image processing utilities
+Pillow>=10.0.0           # Image handling
+
+# Training Utilities
+tensorboard>=2.13.0       # Training visualization and monitoring
+tqdm>=4.65.0             # Progress bars (already in main requirements)
+
+# Scientific Computing
+numpy>=1.24.0            # Numerical arrays (already in main requirements)
+pandas>=2.0.0            # Data manipulation (already in main requirements)
+scikit-learn>=1.3.0      # ML utilities (train/test split, metrics)
+
+# Visualization
+matplotlib>=3.7.0        # Plotting (already in main requirements)
+seaborn>=0.12.0          # Statistical visualization
+
+# Model Management
+timm>=0.9.0              # PyTorch Image Models (pre-trained encoders)
+
+# Optional but Recommended
+# tensorboardX>=2.6       # TensorBoard for PyTorch (if tensorboard doesn't work)
+# wandb>=0.15.0           # Weights & Biases for experiment tracking

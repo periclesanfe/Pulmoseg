@@ -1,0 +1,23 @@
+{
+  "config_name": "morph_gradient_k5",
+  "n_slices": 115,
+  "dice_mean": 0.023284709736188007,
+  "dice_std": 0.029384010209486184,
+  "dice_median": 0.0128783000643915,
+  "iou_mean": 0.012007516792647499,
+  "iou_std": 0.01547686684012935,
+  "iou_median": 0.0064808813998703824,
+  "name": "morph_gradient_k5",
+  "clip_limit": 2.0,
+  "tile_grid_size": [
+    8,
+    8
+  ],
+  "preprocessing": null,
+  "preprocessing_kernel": 5,
+  "threshold_method": "otsu",
+  "binary_threshold": 127,
+  "morph_operation": "gradient",
+  "morph_kernel_size": 5,
+  "morph_iterations": 1
+}
